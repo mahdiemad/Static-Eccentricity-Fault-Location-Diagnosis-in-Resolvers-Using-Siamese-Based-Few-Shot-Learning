@@ -6,14 +6,14 @@ the code repository for the paper "Static Eccentricity Fault Location Diagnosis 
 ## citation
 ```
 @ARTICLE{10192453,
-  author={Emadaleslami, Mahdi and KhajueeZadeh, MohammadSadegh and Tootoonchian, Farid},
+  author={Emadaleslami, Mahdi; KhajueeZadeh, MohammadSadegh; and Tootoonchian, Farid},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
   title={Static Eccentricity Fault Location Diagnosis in Resolvers Using Siamese-Based Few-Shot Learning}, 
   year={2023},
   volume={},
   number={},
   pages={1-1},
-  doi={10.1109/TIM.2023.3298404}}
+  doi={10.1109/TIM.2023.3298404}
 
 ```
 
