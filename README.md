@@ -1,5 +1,5 @@
-# Static-Eccentricity-Fault-Location-Diagnosis-in-Resolvers-with-Few-Shot-Learning
-the code repository for the paper "Static Eccentricity Fault Location Diagnosis in Resolvers with Few-Shot Learning."
+# Static Eccentricity Fault Location Diagnosis in Resolvers Using Siamese-Based Few-Shot Learning
+the code repository for the paper "Static Eccentricity Fault Location Diagnosis in Resolvers Using Siamese-Based Few-Shot Learning"
 
 [Paper Link in IEEE Xplore](https://ieeexplore.ieee.org/document/10192453)
 
@@ -26,7 +26,7 @@ Python 3.6 and the following versioned packages were used for All codes:
 open main _Code.ipynb by **Jupyter Notebook**  for better experience.
 ## Structure
 
-- **Datasets**: The 2D TS-FEA is used to create Data set by injecting static eccentricity fault in the resolver, where the excitation voltage, excitation frequency, and angular velocity are 5V, 5kHz, and 480 rpm. separate raw voltage signals based on slot location are in "FFT for FD" folder
+- **Datasets**: The 2D TS-FEA is used to create Data set by injecting static eccentricity fault in the resolver, where the excitation voltage, excitation frequency, and angular velocity are 5V, 5kHz, and 480 rpm. Raw voltage signals based on slot location are in the "Raw Signal Voltage" folder
 - **Complete_raw_signal_Data.xlsx**:  all raw voltage signals as one file for further use with the pandas library
 - **main _Code.ipynb**: the main file for usage
 - **models.py**: Define the Siamese Network model and other functions.
@@ -53,6 +53,5 @@ Also, The pseudo-code is as follows:
 All our models in this study are open source. But, due to privacy concerns, only part of our dataset is publicly available, which should be enough for educational purposes.
 
 ## acknowledgement
-Finally, we would like to thank the paper "Limited Data Rolling Bearing Fault Diagnosis with Few-shot Learning", which provided us with guidance.
-Enthusiastic readers are encouraged to review  [the paper](https://ieeexplore.ieee.org/abstract/document/8793060) at IEEE Explore.
+Finally, we would like to thank  authors of the paper "Limited Data Rolling Bearing Fault Diagnosis with Few-shot Learning". Enthusiastic readers are encouraged to review  [the paper](https://ieeexplore.ieee.org/abstract/document/8793060) at IEEE Explore.
 
